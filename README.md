@@ -10,7 +10,6 @@
 > All of this is available at least on Linux and Windows, probably even more!
 - [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
 - [Qwant](https://about.qwant.com/en/): Search engine
-- [Obsidian](https://github.com/obsidianmd/obsidian-releases): Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
 - [Visual Studio Code](https://github.com/microsoft/vscode): Universal code and text editor
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
@@ -84,3 +83,7 @@
 	- I could not find any better link, using this package without other LXDE components seems to be rather rare
 - [lxappearance](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
 - [PCManFM](https://github.com/lxde/pcmanfm): File manager
+
+# Proprietary (but Privacy-Respecting!) + Cross-Platform Software
+> I thought hard about referencing any proprietary software, but [Obsidian](https://obsidian.md/), being among my favorite software in general, made me do it.
+- [Obsidian](https://github.com/obsidianmd/obsidian-releases): Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
