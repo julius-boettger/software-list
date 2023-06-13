@@ -39,6 +39,8 @@
 - [Input Remapper](https://github.com/sezanzeb/input-remapper): Change behaviour of input devices
 	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
 - [Ulauncher](https://github.com/Ulauncher/Ulauncher): Application Launcher
+- [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell
+	- [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish): Extension framework for the Fish shell (to customize look and feel) 
 
 ### GNOME Extensions
 > I don't actively use GNOME anymore, but these were my extensions when I did.
