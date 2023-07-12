@@ -15,6 +15,8 @@
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
+- [Inkscape](https://github.com/inkscape/inkscape): Create and edit vector graphics (SVG, PDF, ...)
+- [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
 - [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
