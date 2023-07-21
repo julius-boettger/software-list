@@ -16,6 +16,7 @@
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
 - [Inkscape](https://github.com/inkscape/inkscape): Create and edit vector graphics (SVG, PDF, ...)
+- [Darktable](https://github.com/darktable-org/darktable): Photography workflow application and non-destructive raw developer 
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
@@ -25,6 +26,7 @@
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
 - [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network (instead of physically replugging them all the time)
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
+- [Sioyek](https://github.com/ahrm/sioyek): Minimal keyboard-focused PDF viewer
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
@@ -32,7 +34,7 @@
 
 # Linux
 > The following software is only available for Linux-based operating systems.
-- [NixOS](https://nixos.org/): Linux-based immutable operating system
+- [NixOS](https://github.com/NixOS/nixpkgs): Linux-based immutable operating system
 - [GNOME](https://www.gnome.org/): Desktop Environment
 	- [GNOME Tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks): GNOME configuration, also supports setting GTK themes, cursors, icons, ...
 	- [Dconf Editor](https://apps.gnome.org/app/ca.desrt.dconf-editor/): Advanced GNOME configuration (can change settings for a lot of apps and extensions, even some otherwise hidden settings)
@@ -81,12 +83,14 @@
 ### Custom Xorg Desktop
 > This is software I exclusively use when I am not using a desktop environment but a standalone Xorg window manager.
 - [Awesome](https://github.com/awesomeWM/awesome): Highly customizable tiling window manager
+	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
 - [picom (jonaburg-fork)](https://github.com/jonaburg/picom): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
-- [lxpolkit](https://packages.fedoraproject.org/pkgs/lxsession/lxpolkit/): Simple PolicyKit authentication agent
-	- In simpler terms: Provides a graphical pop-up for you to enter your password when a process needs elevated permissions
-	- I could not find any better link, using this package without other LXDE components seems to be rather rare
-- [lxappearance](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
+- [Circadian](https://github.com/mrmekon/circadian): For suspending system on idle
 - [PCManFM](https://github.com/lxde/pcmanfm): File manager
+- `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
+- [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
+- [`lxappearance`](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
+- [`unclutter-xfixes`](https://github.com/Airblader/unclutter-xfixes): Hide cursor on inactivity
 
 # Proprietary (but Privacy-Respecting!) + Cross-Platform Software
 > I thought hard about referencing any proprietary software, but [Obsidian](https://obsidian.md/), being among my favorite software in general, made me do it.
