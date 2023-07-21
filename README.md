@@ -32,7 +32,7 @@
 
 # Linux
 > The following software is only available for Linux-based operating systems.
-- [Fedora Linux](https://www.fedoraproject.org/): Linux-based operating system
+- [NixOS](https://nixos.org/): Linux-based immutable operating system
 - [GNOME](https://www.gnome.org/): Desktop Environment
 	- [GNOME Tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks): GNOME configuration, also supports setting GTK themes, cursors, icons, ...
 	- [Dconf Editor](https://apps.gnome.org/app/ca.desrt.dconf-editor/): Advanced GNOME configuration (can change settings for a lot of apps and extensions, even some otherwise hidden settings)
