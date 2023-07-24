@@ -9,6 +9,7 @@
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
 - [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
+	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
 - [Qwant](https://about.qwant.com/en/): Search engine
 - [Visual Studio Code](https://github.com/microsoft/vscode): Universal code and text editor
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
@@ -38,6 +39,7 @@
 - [GNOME](https://www.gnome.org/): Desktop Environment
 	- [GNOME Tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks): GNOME configuration, also supports setting GTK themes, cursors, icons, ...
 	- [Dconf Editor](https://apps.gnome.org/app/ca.desrt.dconf-editor/): Advanced GNOME configuration (can change settings for a lot of apps and extensions, even some otherwise hidden settings)
+- [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
 - [OneDrive Client for Linux](https://github.com/abraunegg/onedrive): CLI tool for accessing Microsoft OneDrive
 	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
 - [Input Remapper](https://github.com/sezanzeb/input-remapper): Change behaviour of input devices
@@ -89,7 +91,7 @@
 - [PCManFM](https://github.com/lxde/pcmanfm): File manager
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
 - [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
-- [`lxappearance`](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
+- [`lxappearance`](https://github.com/lxde/lxappearance) (not needed when using [NixOS](https://github.com/NixOS/nixpkgs)): Tool to set GTK themes, cursors, icons, ...
 - [`unclutter-xfixes`](https://github.com/Airblader/unclutter-xfixes): Hide cursor on inactivity
 
 # Proprietary (but Privacy-Respecting!) + Cross-Platform Software
