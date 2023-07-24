@@ -71,16 +71,15 @@
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
-> Links go to https://gnome-look.org
 - GTK Themes (change the look and feel of apps built with GTK)
-	- [Kimi](https://www.gnome-look.org/p/1326889)
-	- [Orchis gtk theme](https://www.gnome-look.org/p/1357889)
+	- [Orchis theme](https://github.com/vinceliuice/Orchis-theme): Rounded corners
+	- [Fluent gtk theme](https://github.com/vinceliuice/Fluent-gtk-theme): Sharp corners (often better with window managers)
 - Cursors (sets of custom cursors)
-	- [Bibata Modern Ice](https://www.gnome-look.org/p/1197198)
-	- [Colloid Cursors Theme](https://www.gnome-look.org/p/1831077)
+	- [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors): Unobtrusive and modern cursor with rainbow loading animation
+	- [Colloid cursors](https://github.com/vinceliuice/Colloid-icon-theme/tree/main/cursors): Based on [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors), but has a slightly more uncommon shape
 - Icons (sets of custom icons for common applications, folders, ...)
-	- [Papirus](https://www.gnome-look.org/p/1166289)
-	- [Fluent icon theme](https://www.gnome-look.org/p/1477945)
+	- [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme): Flat, modern and minimalistic icons
+	- [Fluent icon theme](https://github.com/vinceliuice/Fluent-icon-theme): Uses transparency and blur wherever possible
 
 ### Custom Xorg Desktop
 > This is software I exclusively use when I am not using a desktop environment but a standalone Xorg window manager.
