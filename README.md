@@ -29,6 +29,7 @@
 - [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network (instead of physically replugging them all the time)
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
 - [Sioyek](https://github.com/ahrm/sioyek): Minimal keyboard-focused PDF viewer
+- [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
@@ -45,9 +46,8 @@
 	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
 - [Input Remapper](https://github.com/sezanzeb/input-remapper): Change behaviour of input devices
 	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
-- [Ulauncher](https://github.com/Ulauncher/Ulauncher): Application Launcher
+	- [Autokey](https://github.com/autokey/autokey) is a good alternative (but only runs on Xorg)
 - [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell
-	- [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish): Extension framework for the Fish shell (to customize look and feel) 
 
 ### GNOME Extensions
 > I don't actively use GNOME anymore, but these were my extensions when I did.
@@ -89,6 +89,10 @@
 - [picom (jonaburg-fork)](https://github.com/jonaburg/picom): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
 - [Circadian](https://github.com/mrmekon/circadian): For suspending system on idle
 - [PCManFM](https://github.com/lxde/pcmanfm): File manager
+- [Font Manager](https://github.com/FontManager/font-manager): Font management
+- [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide colour picker with history of last picks
+- [Ulauncher](https://github.com/Ulauncher/Ulauncher): Application Launcher
+- [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
 - [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
 - [`lxappearance`](https://github.com/lxde/lxappearance) (not needed when using [NixOS](https://github.com/NixOS/nixpkgs)): Tool to set GTK themes, cursors, icons, ...
