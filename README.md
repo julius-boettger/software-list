@@ -84,6 +84,8 @@
 
 ### Custom Xorg Desktop
 > This is software I exclusively use when I am not using a desktop environment but a standalone Xorg window manager.
+>
+> If you are interested in this section you might also want to take a look at my [dotfiles](https://github.com/julius-boettger/dotfiles) ;)
 - [Awesome](https://github.com/awesomeWM/awesome): Highly customizable tiling window manager
 	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
 - [picom (jonaburg-fork)](https://github.com/jonaburg/picom): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
