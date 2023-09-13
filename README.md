@@ -23,6 +23,8 @@
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
 - [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
+- [OBS Studio](https://github.com/obsproject/obs-studio): Live streaming and screen recording
+- [Gitnuro](https://github.com/JetpackDuba/Gitnuro): Desktop GUI for `git`
 - [rEFInd](http://www.rodsbooks.com/refind/): (U)EFI boot manager
 	- [refind-dark](https://github.com/2KAbhishek/refind-dark): Theme for rEFInd
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
@@ -89,11 +91,14 @@
 - [Awesome](https://github.com/awesomeWM/awesome): Highly customizable tiling window manager
 	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
 - [picom (jonaburg-fork)](https://github.com/jonaburg/picom): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
+- [SDDM](https://github.com/sddm/sddm): Display manager / login screen
+	- [`sddm-sugar-candy`](https://github.com/Kangie/sddm-sugar-candy): Theme for SDDM
 - [Circadian](https://github.com/mrmekon/circadian): For suspending system on idle
 - [PCManFM](https://github.com/lxde/pcmanfm): File manager
 - [Font Manager](https://github.com/FontManager/font-manager): Font management
 - [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide colour picker with history of last picks
 - [Ulauncher](https://github.com/Ulauncher/Ulauncher): Application Launcher
+	- [Emoji Extension](https://github.com/Ulauncher/ulauncher-emoji): Select and type emojis from Ulauncher
 - [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
 - [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
