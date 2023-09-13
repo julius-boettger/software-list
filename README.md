@@ -25,6 +25,7 @@
 - [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
 - [OBS Studio](https://github.com/obsproject/obs-studio): Live streaming and screen recording
 - [Gitnuro](https://github.com/JetpackDuba/Gitnuro): Desktop GUI for `git`
+	- If you run into issues with credentials see [this issue](https://github.com/JetpackDuba/Gitnuro/issues/16)
 - [rEFInd](http://www.rodsbooks.com/refind/): (U)EFI boot manager
 	- [refind-dark](https://github.com/2KAbhishek/refind-dark): Theme for rEFInd
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
