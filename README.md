@@ -5,7 +5,7 @@
 - I strongly recommend the following websites for finding and comparing the right software for anyone and their use case:
 	- [AlternativeTo](https://alternativeto.net/): Find alternatives for specific products
 	- [Slant](https://slant.co): Compare products of a broader category (like "Linux distributions")
- - If you are familiar with [NixOS](https://nixos.org/) you can find my `configuration.nix` in my [dotfiles](https://github.com/julius-boettger/dotfiles), which contains all the software I currently use
+- If you are familiar with [NixOS](https://nixos.org/) you can find my `configuration.nix` in my [dotfiles](https://github.com/julius-boettger/dotfiles), which contains all the software I currently use
 
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
