@@ -12,7 +12,7 @@
 - [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
 	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
 - [Qwant](https://about.qwant.com/en/): Search engine
-- [Visual Studio Code](https://github.com/microsoft/vscode): Universal code and text editor
+- [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
