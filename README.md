@@ -13,12 +13,17 @@
 	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
 - [Qwant](https://about.qwant.com/en/): Search engine
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
+- [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
 - [Inkscape](https://github.com/inkscape/inkscape): Create and edit vector graphics (SVG, PDF, ...)
 - [Darktable](https://github.com/darktable-org/darktable): Photography workflow application and non-destructive raw developer 
+- [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB): RGB lighting control for various hardware
+- [Insomnia](https://github.com/Kong/insomnia): HTTP API client, useful for testing e.g. REST API's
+- [Ventoy](https://github.com/ventoy/Ventoy): For creating a reusable bootable USB drive that can hold multiple ISO's at once (no more reformatting for every ISO!)
+- [Digital](https://github.com/hneemann/Digital) + [GHDL](https://github.com/ghdl/ghdl): Digital circuit and VHDL simulation
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
@@ -38,40 +43,22 @@
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
 	- I use this to make occasional differential backups of my data on an external SSD
 
+# Mobile (Android / iOS)
+- [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
+
 # Linux
 > The following software is only available for Linux-based operating systems.
 - [NixOS](https://github.com/NixOS/nixpkgs): Linux-based immutable operating system
-- [GNOME](https://www.gnome.org/): Desktop Environment
-	- [GNOME Tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks): GNOME configuration, also supports setting GTK themes, cursors, icons, ...
-	- [Dconf Editor](https://apps.gnome.org/app/ca.desrt.dconf-editor/): Advanced GNOME configuration (can change settings for a lot of apps and extensions, even some otherwise hidden settings)
-- [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
+- [keyd](https://github.com/rvaiya/keyd): Key remapping daemon
+	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
+- [SDDM](https://github.com/sddm/sddm): Display manager / login screen
+	- [`sddm-sugar-candy`](https://github.com/Kangie/sddm-sugar-candy): Theme for SDDM
 - [OneDrive Client for Linux](https://github.com/abraunegg/onedrive): CLI tool for accessing Microsoft OneDrive
 	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
-- [Input Remapper](https://github.com/sezanzeb/input-remapper): Change behaviour of input devices
-	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
-	- [Autokey](https://github.com/autokey/autokey) is a good alternative (but only runs on Xorg)
 - [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell
-
-### GNOME Extensions
-> I don't actively use GNOME anymore, but these were my extensions when I did.
-> Links go to https://extensions.gnome.org/
-- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/): Access clipboard history
-- [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): Simple color picker
-- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/): Hints and notifications when toggling capslock and numlock
-- [Media Controls](https://extensions.gnome.org/extension/4470/media-controls/): Controls and information of the currently playing media in the panel
-- [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/): Lets you select input and output devices below the volume slider
-- [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/): Shows tray icons in panel
-- [Workspace indicator](https://extensions.gnome.org/extension/21/workspace-indicator/): Shows current workspace in panel and lets you switch between them
-- [Date Menu Formatter](https://extensions.gnome.org/extension/4655/date-menu-formatter/): Customize the date and time display in the panel
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/): Displays dash (from the overview) permanently
-- [ArcMenu](https://extensions.gnome.org/extension/307/dash-to-dock/): Application menu (like Windows start menu)
-
-##### Just for fun (purely visual stuff)
-- [Burn my Windows](https://extensions.gnome.org/extension/4679/burn-my-windows/): Animations when closing windows
-- [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/): Look at and switch between your workspaces as a 3D cube
-- [Compiz windows effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/): Make windows wiggle and wobble when moving them
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Add transparency and blur in a lot of places
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Set GNOME shell theme in GNOME Tweaks
+- [Font Manager](https://github.com/FontManager/font-manager): Font management
+- [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
+- [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
@@ -85,27 +72,37 @@
 	- [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme): Flat, modern and minimalistic icons
 	- [Fluent icon theme](https://github.com/vinceliuice/Fluent-icon-theme): Uses transparency and blur wherever possible
 
-### Custom Xorg Desktop
-> This is software I exclusively use when I am not using a desktop environment but a standalone Xorg window manager.
+### Custom Desktop Environment
+> This is software I exclusively use when I am not using a desktop environment but a standalone Xorg window manager or Wayland compositor.
 >
 > If you are interested in this section you might also want to take a look at my [dotfiles](https://github.com/julius-boettger/dotfiles) ;)
+- [Rofi](https://github.com/lbonn/rofi) (fork with Wayland support): Application Launcher
+- [CopyQ](https://github.com/hluk/CopyQ): Clipboard manager with history
+- `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
+- [`lxappearance`](https://github.com/lxde/lxappearance) (not needed when using [NixOS](https://github.com/NixOS/nixpkgs)): Tool to set GTK themes, cursors, icons, ...
+
+#### [`wlroots`](https://gitlab.freedesktop.org/wlroots/wlroots)-based Wayland compositor only
+
+- [Hyprland](https://github.com/hyprwm/Hyprland): Highly customizable tiling compositor
+	- [Hyprsome](https://github.com/sopa0/hyprsome): [Awesome](https://github.com/awesomeWM/awesome)-like workspace management for Hyprland
+	- Grimblast (part of [Hypr Dev Contrib](https://github.com/hyprwm/contrib)): Screenshot utility for Hyprland based on Sway's Grimshot
+- [Hyprpicker](https://github.com/hyprwm/hyprpicker): Simple color picker
+- [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter): Customizable Notification daemon and control center
+- [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
+- [`swww`](https://github.com/Horus645/swww): Wallpaper setter with change animations and support for animated wallpapers
+	
+#### Xorg window manager only
+
 - [Awesome](https://github.com/awesomeWM/awesome): Highly customizable tiling window manager
 	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
-- [picom (jonaburg-fork)](https://github.com/jonaburg/picom): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
-- [SDDM](https://github.com/sddm/sddm): Display manager / login screen
-	- [`sddm-sugar-candy`](https://github.com/Kangie/sddm-sugar-candy): Theme for SDDM
+- [picom](https://github.com/jonaburg/picom) (jonaburg fork): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
+- [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide color picker with history of last picks
 - [Circadian](https://github.com/mrmekon/circadian): For suspending system on idle
-- [PCManFM](https://github.com/lxde/pcmanfm): File manager
-- [Font Manager](https://github.com/FontManager/font-manager): Font management
-- [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide colour picker with history of last picks
-- [Ulauncher](https://github.com/Ulauncher/Ulauncher): Application Launcher
-	- [Emoji Extension](https://github.com/Ulauncher/ulauncher-emoji): Select and type emojis from Ulauncher
-- [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
-- `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
 - [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
-- [`lxappearance`](https://github.com/lxde/lxappearance) (not needed when using [NixOS](https://github.com/NixOS/nixpkgs)): Tool to set GTK themes, cursors, icons, ...
 - [`unclutter-xfixes`](https://github.com/Airblader/unclutter-xfixes): Hide cursor on inactivity
 
-# Proprietary (but Privacy-Respecting!) + Cross-Platform Software
-> I thought hard about referencing any proprietary software, but [Obsidian](https://obsidian.md/), being among my favorite software in general, made me do it.
-- [Obsidian](https://github.com/obsidianmd/obsidian-releases): Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
+# [Obsidian](https://github.com/obsidianmd/obsidian-releases)
+- **Proprietary!** But source code can be inspected and seems to respect privacy (see [this](https://forum.obsidian.md/t/is-it-true-that-obsidian-is-already-open-source/46413))
+- Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
+- Cross-Platform
+> I thought hard about referencing any proprietary software, but Obsidian is among my favorite and most used software in general, so I felt it was justified.
