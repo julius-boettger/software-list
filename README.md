@@ -24,6 +24,7 @@
 - [Insomnia](https://github.com/Kong/insomnia): HTTP API client, useful for testing e.g. REST API's
 - [Ventoy](https://github.com/ventoy/Ventoy): For creating a reusable bootable USB drive that can hold multiple ISO's at once (no more reformatting for every ISO!)
 - [Digital](https://github.com/hneemann/Digital) + [GHDL](https://github.com/ghdl/ghdl): Digital circuit and VHDL simulation
+- [`liquidctl`](https://github.com/liquidctl/liquidctl): CLI-tool and drivers for liquid coolers (also see [`liquidtux`](https://github.com/liquidctl/liquidtux) when on [Linux](#linux))
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
@@ -55,10 +56,19 @@
 	- [`sddm-sugar-candy`](https://github.com/Kangie/sddm-sugar-candy): Theme for SDDM
 - [OneDrive Client for Linux](https://github.com/abraunegg/onedrive): CLI tool for accessing Microsoft OneDrive
 	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
+- [Proton GE Custom](https://github.com/GloriousEggroll/proton-ge-custom): [Proton](https://github.com/ValveSoftware/Proton) fork with various changes for a better gaming experience (primarily with Steam games for Windows)
+	- [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt): GUI for easy management of Proton and Wine installations
+- [`liquidtux`](https://github.com/liquidctl/liquidtux): Kernel drivers for liquid coolers (e.g. makes [lm-sensors](https://github.com/lm-sensors/lm-sensors) recognize coolant temperature sensor, also see [`liquidctl`](https://github.com/liquidctl/liquidctl) under [Cross-Platform](#cross-platform))
 - [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell
 - [Font Manager](https://github.com/FontManager/font-manager): Font management
 - [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
+- [Flatseal](https://github.com/tchx84/Flatseal): Manage Flatpak permissions per app
+- [Psensor](https://github.com/chinf/psensor) (GUI) + [lm-sensors](https://github.com/lm-sensors/lm-sensors) (CLI): Sensor monitoring (e.g. cpu temperature)
+- [Piper](https://github.com/libratbag/piper): Configure gaming mice
+- [Playerctl](https://github.com/altdesktop/playerctl): CLI-tool for controlling media players (e.g. play/pause current media player)
+- [nvidia-system-monitor](https://github.com/congard/nvidia-system-monitor-qt): System monitor for NVIDIA GPU's
+- [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Real-time microphone background noise suppression
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
@@ -89,6 +99,7 @@
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker): Simple color picker
 - [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter): Customizable Notification daemon and control center
 - [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
+- [swaylock-effects](https://github.com/jirutka/swaylock-effects): Modern-looking lockscreen
 - [`swww`](https://github.com/Horus645/swww): Wallpaper setter with change animations and support for animated wallpapers
 	
 #### Xorg window manager only
