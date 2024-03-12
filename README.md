@@ -1,7 +1,7 @@
 # My favorite _**Free and Open Source**_ Software
 - Links go to...
-	- GitHub repositories (whenever possible)
-	- Project websites
+	- Source code repositories (e.g. GitHub, GitLab, Codeberg)
+	- Project websites (only when they contain more information than the repo OR the repo isn't public)
 - I strongly recommend the following websites for finding and comparing the right software for anyone and their use case:
 	- [AlternativeTo](https://alternativeto.net/): Find alternatives for specific products
 	- [Slant](https://slant.co): Compare products of a broader category (like "Linux distributions")
@@ -11,7 +11,6 @@
 > All of this is available at least on Linux and Windows, probably even more!
 - [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
 	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
-- [Qwant](https://about.qwant.com/en/): Search engine
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
@@ -28,7 +27,6 @@
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
 	- Especially useful as bootable USB drive!
-- [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
 - [OBS Studio](https://github.com/obsproject/obs-studio): Live streaming and screen recording
 - [Gitnuro](https://github.com/JetpackDuba/Gitnuro): Desktop GUI for `git`
 	- If you run into issues with credentials see [this issue](https://github.com/JetpackDuba/Gitnuro/issues/16)
@@ -38,7 +36,6 @@
 - [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network (instead of physically replugging them all the time)
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
 - [Sioyek](https://github.com/ahrm/sioyek): Minimal keyboard-focused PDF viewer
-- [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
@@ -48,8 +45,8 @@
 - [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
 
 # Linux
-> The following software is only available for Linux-based operating systems.
-- [NixOS](https://github.com/NixOS/nixpkgs): Linux-based immutable operating system
+> The following software is available for Linux-based (and possibly other [Unix-like](https://en.wikipedia.org/wiki/Unix-like)) operating systems
+- [NixOS](https://github.com/NixOS/nixpkgs): Linux-based immutable and declaratively configured operating system
 - [keyd](https://github.com/rvaiya/keyd): Key remapping daemon
 	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
 - [SDDM](https://github.com/sddm/sddm): Display manager / login screen
@@ -59,9 +56,7 @@
 - [Proton GE Custom](https://github.com/GloriousEggroll/proton-ge-custom): [Proton](https://github.com/ValveSoftware/Proton) fork with various changes for a better gaming experience (primarily with Steam games for Windows)
 	- [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt): GUI for easy management of Proton and Wine installations
 - [`liquidtux`](https://github.com/liquidctl/liquidtux): Kernel drivers for liquid coolers (e.g. makes [lm-sensors](https://github.com/lm-sensors/lm-sensors) recognize coolant temperature sensor, also see [`liquidctl`](https://github.com/liquidctl/liquidctl) under [Cross-Platform](#cross-platform))
-- [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell
 - [Font Manager](https://github.com/FontManager/font-manager): Font management
-- [Stacer](https://github.com/oguzhaninan/Stacer): System optimization and monitoring (processes, services, cache, ...)
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
 - [Flatseal](https://github.com/tchx84/Flatseal): Manage Flatpak permissions per app
 - [Psensor](https://github.com/chinf/psensor) (GUI) + [lm-sensors](https://github.com/lm-sensors/lm-sensors) (CLI): Sensor monitoring (e.g. cpu temperature)
@@ -69,6 +64,12 @@
 - [Playerctl](https://github.com/altdesktop/playerctl): CLI-tool for controlling media players (e.g. play/pause current media player)
 - [nvidia-system-monitor](https://github.com/congard/nvidia-system-monitor-qt): System monitor for NVIDIA GPU's
 - [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Real-time microphone background noise suppression
+
+### Command line
+> Tools to improve your command line experience
+- [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
+- [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell with command suggestions and completions
+- [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
@@ -89,7 +90,6 @@
 - [Rofi](https://github.com/lbonn/rofi) (fork with Wayland support): Application Launcher
 - [CopyQ](https://github.com/hluk/CopyQ): Clipboard manager with history
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
-- [`lxappearance`](https://github.com/lxde/lxappearance) (not needed when using [NixOS](https://github.com/NixOS/nixpkgs)): Tool to set GTK themes, cursors, icons, ...
 
 #### [`wlroots`](https://gitlab.freedesktop.org/wlroots/wlroots)-based Wayland compositor only
 
@@ -108,12 +108,18 @@
 	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
 - [picom](https://github.com/jonaburg/picom) (jonaburg fork): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
 - [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide color picker with history of last picks
-- [Circadian](https://github.com/mrmekon/circadian): For suspending system on idle
-- [`lxqt-powermanagement`](https://github.com/lxqt/lxqt-powermanagement): For turning off monitors on idle
+- [`lxappearance`](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
 - [`unclutter-xfixes`](https://github.com/Airblader/unclutter-xfixes): Hide cursor on inactivity
 
-# [Obsidian](https://github.com/obsidianmd/obsidian-releases)
-- **Proprietary!** But source code can be inspected and seems to respect privacy (see [this](https://forum.obsidian.md/t/is-it-true-that-obsidian-is-already-open-source/46413))
-- Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
-- Cross-Platform
-> I thought hard about referencing any proprietary software, but Obsidian is among my favorite and most used software in general, so I felt it was justified.
+-----
+-----
+-----
+
+# Proprietary Software
+> I thought hard about referencing any proprietary software at all, as I try my best to avoid it. But there is some proprietary software that still seems to respect privacy somewhat and that I couldn't replace with an open source alternative just yet, because I simply couldn't find one that fits my needs in the same way.
+- [Obsidian](https://obsidian.md/): Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
+	- Cross-Platform
+	- Source code can be inspected and seems to respect privacy (see [this](https://forum.obsidian.md/t/is-it-true-that-obsidian-is-already-open-source/46413))
+- [Qwant](https://about.qwant.com/en/): Privacy-respecting and unbiased search engine (using [Bing](https://www.bing.com/)s index)
+	- Mainly used as a [website](https://www.qwant.com/), but is also available through browser extensions and Android/iOS apps
+	- Privacy is not top-notch, but still better than most reasonable alternatives
