@@ -19,6 +19,8 @@
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
 - [Inkscape](https://github.com/inkscape/inkscape): Create and edit vector graphics (SVG, PDF, ...)
 - [Darktable](https://github.com/darktable-org/darktable): Photography workflow application and non-destructive raw developer 
+- [Tenacity](https://codeberg.org/tenacityteam/tenacity): Multi-track audio editor (a.k.a. [Audacity](https://www.audacityteam.org/), but better)
+- [Vesktop](https://github.com/Vencord/Vesktop): Open source 3rd party [Discord](https://discord.com/) client with better Wayland support on Linux
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB): RGB lighting control for various hardware
 - [Insomnia](https://github.com/Kong/insomnia): HTTP API client, useful for testing e.g. REST API's
 - [Ventoy](https://github.com/ventoy/Ventoy): For creating a reusable bootable USB drive that can hold multiple ISO's at once (no more reformatting for every ISO!)
@@ -55,6 +57,8 @@
 	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
 - [Proton GE Custom](https://github.com/GloriousEggroll/proton-ge-custom): [Proton](https://github.com/ValveSoftware/Proton) fork with various changes for a better gaming experience (primarily with Steam games for Windows)
 	- [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt): GUI for easy management of Proton and Wine installations
+- [Pitivi](https://www.pitivi.org/): Video editor
+- [Bottles](https://github.com/bottlesdevs/Bottles): [Wine](https://www.winehq.org/) wrapper to easily run Windows software (including games) on Linux
 - [`liquidtux`](https://github.com/liquidctl/liquidtux): Kernel drivers for liquid coolers (e.g. makes [lm-sensors](https://github.com/lm-sensors/lm-sensors) recognize coolant temperature sensor, also see [`liquidctl`](https://github.com/liquidctl/liquidctl) under [Cross-Platform](#cross-platform))
 - [Font Manager](https://github.com/FontManager/font-manager): Font management
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
@@ -62,14 +66,22 @@
 - [Psensor](https://github.com/chinf/psensor) (GUI) + [lm-sensors](https://github.com/lm-sensors/lm-sensors) (CLI): Sensor monitoring (e.g. cpu temperature)
 - [Piper](https://github.com/libratbag/piper): Configure gaming mice
 - [Playerctl](https://github.com/altdesktop/playerctl): CLI-tool for controlling media players (e.g. play/pause current media player)
-- [nvidia-system-monitor](https://github.com/congard/nvidia-system-monitor-qt): System monitor for NVIDIA GPU's
 - [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Real-time microphone background noise suppression
+- System monitors
+	- [Resources](https://github.com/nokyan/resources): Great system monitor overall
+	- [Monitor](https://github.com/stsdc/monitor): System monitor with a great process view
+	- [nvidia-system-monitor](https://github.com/congard/nvidia-system-monitor-qt): System monitor for NVIDIA GPU's
 
 ### Command line
 > Tools to improve your command line experience
 - [Alacritty](https://github.com/alacritty/alacritty): GPU-accelerated terminal emulator
 - [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell with command suggestions and completions
 - [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
+- [zoxide](https://github.com/ajeetdsouza/zoxide): Provides the `z` command as a better `cd`, e.g. remembering your most frequent directories so you don't have to type them out fully
+- [`bat`](https://github.com/sharkdp/bat): Better `cat` with syntax highlighting and paging
+- [`lsd`](https://github.com/lsd-rs/lsd): Better `ls` with icons, colors and tree-views
+- [`fzf`](https://github.com/junegunn/fzf): Fast fuzzy finder (useful to e.g. search for a file in a directory with thousands of files)
+- [`tldr`](https://github.com/tldr-pages/tldr): Like `man`, but way shorter, more comprehensive and colored
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
@@ -90,6 +102,7 @@
 - [Rofi](https://github.com/lbonn/rofi) (fork with Wayland support): Application Launcher
 - [CopyQ](https://github.com/hluk/CopyQ): Clipboard manager with history
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
+- [Eww](https://github.com/elkowar/eww) ("Elkowars Wacky Widgets"): Widget system to implement your own window manager agnostic widgets
 
 #### [`wlroots`](https://gitlab.freedesktop.org/wlroots/wlroots)-based Wayland compositor only
 
@@ -101,6 +114,7 @@
 - [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
 - [swaylock-effects](https://github.com/jirutka/swaylock-effects): Modern-looking lockscreen
 - [`swww`](https://github.com/Horus645/swww): Wallpaper setter with change animations and support for animated wallpapers
+- [`nwg-look`](https://github.com/nwg-piotr/nwg-look): Tool to set GTK themes, cursors, icons, ... (better on Wayland)
 	
 #### Xorg window manager only
 
@@ -108,8 +122,8 @@
 	- [Awesome Copycats](https://github.com/lcpz/awesome-copycats): Set of themes for the Awesome window manager
 - [picom](https://github.com/jonaburg/picom) (jonaburg fork): compositing manager with support for transparency, blur, rounded corners, shadows, animations, transitions, ...it just looks good.
 - [Pick Colour Picker](https://github.com/stuartlangridge/ColourPicker): Screen-wide color picker with history of last picks
-- [`lxappearance`](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ...
 - [`unclutter-xfixes`](https://github.com/Airblader/unclutter-xfixes): Hide cursor on inactivity
+- [`lxappearance`](https://github.com/lxde/lxappearance): Tool to set GTK themes, cursors, icons, ... (better on Xorg)
 
 -----
 -----
