@@ -5,14 +5,18 @@
 - I strongly recommend the following websites for finding and comparing the right software for anyone and their use case:
 	- [AlternativeTo](https://alternativeto.net/): Find alternatives for specific products
 	- [Slant](https://slant.co): Compare products of a broader category (like "Linux distributions")
+- I keep my [GitHub Stars](https://github.com/julius-boettger?tab=stars) up-to-date with this list, so you can also scroll through there (at least for software that primarily uses GitHub)
 - If you are familiar with [NixOS](https://nixos.org/) you can find my `configuration.nix` in my [dotfiles](https://github.com/julius-boettger/dotfiles), which contains all the software I currently use
 
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
 - [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
+	- [uBlock Origin](https://github.com/gorhill/uBlock): Content blocker (ads, trackers, pop-up, ...) add-on
 	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
+- [Signal](https://github.com/signalapp): Private messenger (also on [mobile](#mobile-android--ios)!)
+- [Notesnook](https://github.com/streetwriters/notesnook): Simple note taking (also on [mobile](#mobile-android--ios)!)
 - [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
@@ -22,9 +26,8 @@
 - [Tenacity](https://codeberg.org/tenacityteam/tenacity): Multi-track audio editor (a.k.a. [Audacity](https://www.audacityteam.org/), but better)
 - [Vesktop](https://github.com/Vencord/Vesktop): Open source 3rd party [Discord](https://discord.com/) client with better Wayland support on Linux
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB): RGB lighting control for various hardware
-- [Insomnia](https://github.com/Kong/insomnia): HTTP API client, useful for testing e.g. REST API's
 - [Ventoy](https://github.com/ventoy/Ventoy): For creating a reusable bootable USB drive that can hold multiple ISO's at once (no more reformatting for every ISO!)
-- [Digital](https://github.com/hneemann/Digital) + [GHDL](https://github.com/ghdl/ghdl): Digital circuit and VHDL simulation
+- [USBImager](https://gitlab.com/bztsrc/usbimager): Minimal GUI to create bootable USB sticks
 - [`liquidctl`](https://github.com/liquidctl/liquidctl): CLI-tool and drivers for liquid coolers (also see [`liquidtux`](https://github.com/liquidctl/liquidtux) when on [Linux](#linux))
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
 - [GParted](https://gparted.org/): Partition editor 
@@ -32,12 +35,13 @@
 - [OBS Studio](https://github.com/obsproject/obs-studio): Live streaming and screen recording
 - [Gitnuro](https://github.com/JetpackDuba/Gitnuro): Desktop GUI for `git`
 	- If you run into issues with credentials see [this issue](https://github.com/JetpackDuba/Gitnuro/issues/16)
+- [Bruno](https://github.com/usebruno/bruno): HTTP API client, useful for testing e.g. REST API's
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono): Monospaced font for programming. I especially like the "No Ligatures" (NL) version :)
 - [rEFInd](http://www.rodsbooks.com/refind/): (U)EFI boot manager
 	- [refind-dark](https://github.com/2KAbhishek/refind-dark): Theme for rEFInd
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
 - [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network (instead of physically replugging them all the time)
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
-- [Sioyek](https://github.com/ahrm/sioyek): Minimal keyboard-focused PDF viewer
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
@@ -45,10 +49,13 @@
 
 # Mobile (Android / iOS)
 - [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
+- [Bura](https://github.com/davidtakac/bura): Weather app (Android only)
 
 # Linux
 > The following software is available for Linux-based (and possibly other [Unix-like](https://en.wikipedia.org/wiki/Unix-like)) operating systems
 - [NixOS](https://github.com/NixOS/nixpkgs): Linux-based immutable and declaratively configured operating system
+	- [nh](https://github.com/viperML/nh): **N**ix **H**elper for prettier/better `nix` commands
+	- [nix-output-monitor](https://github.com/maralorn/nix-output-monitor): Prettier output for `nix` commands
 - [keyd](https://github.com/rvaiya/keyd): Key remapping daemon
 	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
 - [SDDM](https://github.com/sddm/sddm): Display manager / login screen
@@ -66,6 +73,7 @@
 - [Psensor](https://github.com/chinf/psensor) (GUI) + [lm-sensors](https://github.com/lm-sensors/lm-sensors) (CLI): Sensor monitoring (e.g. cpu temperature)
 - [Piper](https://github.com/libratbag/piper): Configure gaming mice
 - [Playerctl](https://github.com/altdesktop/playerctl): CLI-tool for controlling media players (e.g. play/pause current media player)
+- [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/): Beautiful loading animations during boot
 - [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Real-time microphone background noise suppression
 - System monitors
 	- [Resources](https://github.com/nokyan/resources): Great system monitor overall
@@ -78,10 +86,17 @@
 - [Fish Shell](https://github.com/fish-shell/fish-shell): Modern shell with command suggestions and completions
 - [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
 - [zoxide](https://github.com/ajeetdsouza/zoxide): Provides the `z` command as a better `cd`, e.g. remembering your most frequent directories so you don't have to type them out fully
+- [Numbat](https://github.com/sharkdp/numbat): Scientific calculator (and also a programming language!)
+- [LibreSpeed CLI](https://github.com/librespeed/speedtest-cli): Internet speed test
 - [`bat`](https://github.com/sharkdp/bat): Better `cat` with syntax highlighting and paging
 - [`lsd`](https://github.com/lsd-rs/lsd): Better `ls` with icons, colors and tree-views
 - [`fzf`](https://github.com/junegunn/fzf): Fast fuzzy finder (useful to e.g. search for a file in a directory with thousands of files)
 - [`tldr`](https://github.com/tldr-pages/tldr): Like `man`, but way shorter, more comprehensive and colored
+- [`wsl-vpnkit`](https://github.com/sakai135/wsl-vpnkit): Fix company VPN issues on WSL
+- Just for fun
+	- [`cbonsai`](https://gitlab.com/jallbrit/cbonsai): ASCII art bonsai
+	- [`asciiquarium`](https://github.com/nothub/asciiquarium): ASCII art aquarium/sea
+	- [`fastfetch`](https://github.com/fastfetch-cli/fastfetch): Fast overview of system information
 
 ### Theming
 > Theming of this kind is possible on almost any graphical Linux-system, although the methods to apply these themes vary.
@@ -108,11 +123,12 @@
 
 - [Hyprland](https://github.com/hyprwm/Hyprland): Highly customizable tiling compositor
 	- [Hyprsome](https://github.com/sopa0/hyprsome): [Awesome](https://github.com/awesomeWM/awesome)-like workspace management for Hyprland
-	- Grimblast (part of [Hypr Dev Contrib](https://github.com/hyprwm/contrib)): Screenshot utility for Hyprland based on Sway's Grimshot
+	- [grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast): Screenshot utility for Hyprland based on Sway's Grimshot
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker): Simple color picker
 - [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter): Customizable Notification daemon and control center
 - [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
 - [swaylock-effects](https://github.com/jirutka/swaylock-effects): Modern-looking lockscreen
+- [swappy](https://github.com/jtheoof/swappy): Screenshot editing
 - [`swww`](https://github.com/Horus645/swww): Wallpaper setter with change animations and support for animated wallpapers
 - [`nwg-look`](https://github.com/nwg-piotr/nwg-look): Tool to set GTK themes, cursors, icons, ... (better on Wayland)
 	
