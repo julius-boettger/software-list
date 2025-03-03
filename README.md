@@ -6,7 +6,7 @@
 	- [AlternativeTo](https://alternativeto.net/): Find alternatives for specific products
 	- [Slant](https://slant.co): Compare products of a broader category (like "Linux distributions")
 - I keep my [GitHub Stars](https://github.com/julius-boettger?tab=stars) up-to-date with this list, so you can also scroll through there (at least for software that primarily uses GitHub)
-- If you are familiar with [NixOS](https://nixos.org/) you can find my `configuration.nix` in my [dotfiles](https://github.com/julius-boettger/dotfiles), which contains all the software I currently use
+- If you are familiar with [NixOS](https://nixos.org/) you can find my configuration in my [dotfiles](https://github.com/julius-boettger/dotfiles), which contains all the software I currently use
 
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
@@ -17,7 +17,7 @@
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [Signal](https://github.com/signalapp): Private messenger (also on [mobile](#mobile-android--ios)!)
 - [Notesnook](https://github.com/streetwriters/notesnook): Simple note taking (also on [mobile](#mobile-android--ios)!)
-- [LibreOffice](https://www.libreoffice.org/): Office suite containing tools for word processing, spreadsheets, presentations, ...
+- [OnlyOffice](https://github.com/ONLYOFFICE/DesktopEditors): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
@@ -26,7 +26,6 @@
 - [Tenacity](https://codeberg.org/tenacityteam/tenacity): Multi-track audio editor (a.k.a. [Audacity](https://www.audacityteam.org/), but better)
 - [Vesktop](https://github.com/Vencord/Vesktop): Open source 3rd party [Discord](https://discord.com/) client with better Wayland support on Linux
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB): RGB lighting control for various hardware
-- [Ventoy](https://github.com/ventoy/Ventoy): For creating a reusable bootable USB drive that can hold multiple ISO's at once (no more reformatting for every ISO!)
 - [USBImager](https://gitlab.com/bztsrc/usbimager): Minimal GUI to create bootable USB sticks
 - [`liquidctl`](https://github.com/liquidctl/liquidctl): CLI-tool and drivers for liquid coolers (also see [`liquidtux`](https://github.com/liquidctl/liquidtux) when on [Linux](#linux))
 - [Overleaf](https://github.com/overleaf/overleaf): Web-based real-time collaborative LaTeX editor
@@ -35,17 +34,19 @@
 - [OBS Studio](https://github.com/obsproject/obs-studio): Live streaming and screen recording
 - [Gitnuro](https://github.com/JetpackDuba/Gitnuro): Desktop GUI for `git`
 	- If you run into issues with credentials see [this issue](https://github.com/JetpackDuba/Gitnuro/issues/16)
-- [Bruno](https://github.com/usebruno/bruno): HTTP API client, useful for testing e.g. REST API's
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono): Monospaced font for programming. I especially like the "No Ligatures" (NL) version :)
 - [rEFInd](http://www.rodsbooks.com/refind/): (U)EFI boot manager
 	- [refind-dark](https://github.com/2KAbhishek/refind-dark): Theme for rEFInd
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
-- [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network (instead of physically replugging them all the time)
+- [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network instead of physically replugging them all the time
+	- If you plan on using this with Linux: it only works on Xorg, not on Wayland!
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
 - [FreeFileSync](https://freefilesync.org/): Folder comparison and synchronization software that creates and manages backups
 	- I use this to make occasional differential backups of my data on an external SSD
+- [RethinkDNS](https://rethinkdns.com/): Transparent DNS provider with options to block e.g. trackers, ads, ...
+- [Obsidian LiveSync](https://github.com/vrtmrz/obsidian-livesync): Self-hosted server to (live-)sync [Obsidian](https://obsidian.md/) notes between devices
 
 # Mobile (Android / iOS)
 - [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
@@ -87,6 +88,7 @@
 - [Starship](https://github.com/starship/starship): Highly customizable shell prompt (for any shell)
 - [zoxide](https://github.com/ajeetdsouza/zoxide): Provides the `z` command as a better `cd`, e.g. remembering your most frequent directories so you don't have to type them out fully
 - [Numbat](https://github.com/sharkdp/numbat): Scientific calculator (and also a programming language!)
+- [nomino](https://github.com/yaa110/nomino): Batch rename utility
 - [LibreSpeed CLI](https://github.com/librespeed/speedtest-cli): Internet speed test
 - [`bat`](https://github.com/sharkdp/bat): Better `cat` with syntax highlighting and paging
 - [`lsd`](https://github.com/lsd-rs/lsd): Better `ls` with icons, colors and tree-views
@@ -122,8 +124,9 @@
 #### [`wlroots`](https://gitlab.freedesktop.org/wlroots/wlroots)-based Wayland compositor only
 
 - [Hyprland](https://github.com/hyprwm/Hyprland): Highly customizable tiling compositor
-	- [Hyprsome](https://github.com/sopa0/hyprsome): [Awesome](https://github.com/awesomeWM/awesome)-like workspace management for Hyprland
+	- [Hyprsplit](https://github.com/shezdy/hyprsplit): Hyprland plugin for separate workspaces for each monitor ([Awesome](https://github.com/awesomeWM/awesome)-like)
 	- [grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast): Screenshot utility for Hyprland based on Sway's Grimshot
+	- [`hyprland-workspaces`](https://github.com/FieldofClay/hyprland-workspaces): Useful for building Hyprland workspace widgets e.g. with [Eww](https://github.com/elkowar/eww)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker): Simple color picker
 - [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter): Customizable Notification daemon and control center
 - [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
