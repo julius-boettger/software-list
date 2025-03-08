@@ -10,9 +10,9 @@
 
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
-- [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/): Internet browser
+- [Zen Browser](https://github.com/zen-browser/desktop): Minimalistic internet browser
+	- If you are looking for a more conventional browser, I recommend [Brave](https://github.com/brave/brave-browser)
 	- [uBlock Origin](https://github.com/gorhill/uBlock): Content blocker (ads, trackers, pop-up, ...) add-on
-	- [Bonjourr](https://github.com/victrme/Bonjourr): Add-on for a better startpage
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [Signal](https://github.com/signalapp): Private messenger (also on [mobile](#mobile-android--ios)!)
@@ -49,6 +49,7 @@
 - [Obsidian LiveSync](https://github.com/vrtmrz/obsidian-livesync): Self-hosted server to (live-)sync [Obsidian](https://obsidian.md/) notes between devices
 
 # Mobile (Android / iOS)
+- [Brave](https://github.com/brave/brave-browser): Internet browser
 - [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
 - [Bura](https://github.com/davidtakac/bura): Weather app (Android only)
 
