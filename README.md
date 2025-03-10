@@ -13,6 +13,7 @@
 - [Zen Browser](https://github.com/zen-browser/desktop): Minimalistic internet browser
 	- If you are looking for a more conventional browser, I recommend [Brave](https://github.com/brave/brave-browser)
 	- [uBlock Origin](https://github.com/gorhill/uBlock): Content blocker (ads, trackers, pop-up, ...) add-on
+- [Bitwarden](https://bitwarden.com/): Password manager
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [Signal](https://github.com/signalapp): Private messenger (also on [mobile](#mobile-android--ios)!)
