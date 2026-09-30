@@ -11,14 +11,14 @@
 # Cross-Platform
 > All of this is available at least on Linux and Windows, probably even more!
 - [Zen Browser](https://github.com/zen-browser/desktop): Minimalistic internet browser
-	- If you are looking for a more conventional browser, I recommend [Brave](https://github.com/brave/brave-browser)
+	- If you are looking for a more conventional browser, I recommend [Firefox](https://github.com/mozilla-firefox/firefox) (for the better built-in PDF viewer) or [Brave](https://github.com/brave/brave-browser) (if you don't like Mozilla's stance on AI)
 	- [uBlock Origin](https://github.com/gorhill/uBlock): Content blocker (ads, trackers, pop-up, ...) add-on
 - [Bitwarden](https://bitwarden.com/): Password manager
 - [VSCodium](https://github.com/VSCodium/vscodium): Open source builds of [VSCode](https://github.com/microsoft/vscode), a universal code and text editor
 - [Proton Mail](https://github.com/ProtonMail) + [Proton Calendar](https://proton.me/calendar): End-to-end encrypted email and calendar
 - [Signal](https://github.com/signalapp): Private messenger (also on [mobile](#mobile-android--ios)!)
 - [Notesnook](https://github.com/streetwriters/notesnook): Simple note taking (also on [mobile](#mobile-android--ios)!)
-- [OnlyOffice](https://github.com/ONLYOFFICE/DesktopEditors): Office suite containing tools for word processing, spreadsheets, presentations, ...
+- [Collabora Office](https://www.collaboraonline.com/collabora-office/): Office suite containing tools for word processing, spreadsheets, presentations, ...
 - [VirtualBox](https://www.virtualbox.org/): Virtualization software (for managing and running VM's)
 	- VM's are really useful! Testing out operating systems, checking the safety of executables with no risk to your system, ...
 - [GIMP](https://www.gimp.org/): Image editing and manipulation software
@@ -39,8 +39,6 @@
 - [rEFInd](http://www.rodsbooks.com/refind/): (U)EFI boot manager
 	- [refind-dark](https://github.com/2KAbhishek/refind-dark): Theme for rEFInd
 	- I strongly recommend this for dual boot systems, as you will need some kind of boot manager either way. This is probably the best-looking one + it supports using your mouse!
-- [Barrier](https://github.com/debauchee/barrier): Switch between using your mouse and keyboard on different systems over the network instead of physically replugging them all the time
-	- If you plan on using this with Linux: it only works on Xorg, not on Wayland!
 - [Flameshot](https://github.com/flameshot-org/flameshot): Quickly take, edit, share and save screenshots
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt): Encrypt (password-protect) disks/drives and partitions
 	- I use this to password-protect my external backup-SSD
@@ -48,11 +46,12 @@
 	- I use this to make occasional differential backups of my data on an external SSD
 - [RethinkDNS](https://rethinkdns.com/): Transparent DNS provider with options to block e.g. trackers, ads, ...
 - [Obsidian LiveSync](https://github.com/vrtmrz/obsidian-livesync): Self-hosted server to (live-)sync [Obsidian](https://obsidian.md/) notes between devices
+- [Localsend](https://github.com/localsend/localsend): Securely share files and messages with nearby devices over your local network
+- [qimgv](https://github.com/easymodo/qimgv): Image viewer (especially useful on Linux setups that don't have one preinstalled)
 
 # Mobile (Android / iOS)
-- [Brave](https://github.com/brave/brave-browser): Internet browser
 - [ente Authenticator](https://github.com/ente-io/auth): 2FA with end-to-end encrypted cloud backups and web access
-- [Bura](https://github.com/davidtakac/bura): Weather app (Android only)
+- [MJ PDF](https://github.com/mudlej/mj_pdf/): PDF reader
 
 # Linux
 > The following software is available for Linux-based (and possibly other [Unix-like](https://en.wikipedia.org/wiki/Unix-like)) operating systems
@@ -62,9 +61,7 @@
 - [keyd](https://github.com/rvaiya/keyd): Key remapping daemon
 	- very useful for European folks who are used to `Ctrl+Alt` doing the same thing as `AltGr`, which is not the default on Linux, but can be configured to work like that with this program
 - [SDDM](https://github.com/sddm/sddm): Display manager / login screen
-	- [`sddm-sugar-candy`](https://github.com/Kangie/sddm-sugar-candy): Theme for SDDM
-- [OneDrive Client for Linux](https://github.com/abraunegg/onedrive): CLI tool for accessing Microsoft OneDrive
-	- [OneDriveGUI](https://github.com/bpozdena/OneDriveGUI): GUI for before-mentioned OneDrive CLI tool
+	- [`sddm-astronaut-theme`](https://github.com/Keyitdev/sddm-astronaut-theme): Theme for SDDM
 - [Proton GE Custom](https://github.com/GloriousEggroll/proton-ge-custom): [Proton](https://github.com/ValveSoftware/Proton) fork with various changes for a better gaming experience (primarily with Steam games for Windows)
 	- [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt): GUI for easy management of Proton and Wine installations
 - [Pitivi](https://www.pitivi.org/): Video editor
@@ -73,11 +70,10 @@
 - [Font Manager](https://github.com/FontManager/font-manager): Font management
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher): Integrate AppImages into your system seamlessly
 - [Flatseal](https://github.com/tchx84/Flatseal): Manage Flatpak permissions per app
-- [Psensor](https://github.com/chinf/psensor) (GUI) + [lm-sensors](https://github.com/lm-sensors/lm-sensors) (CLI): Sensor monitoring (e.g. cpu temperature)
 - [Piper](https://github.com/libratbag/piper): Configure gaming mice
 - [Playerctl](https://github.com/altdesktop/playerctl): CLI-tool for controlling media players (e.g. play/pause current media player)
 - [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/): Beautiful loading animations during boot
-- [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Real-time microphone background noise suppression
+- [Easy Effects](https://github.com/wwmm/easyeffects): For real-time microphone background noise suppression
 - System monitors
 	- [Resources](https://github.com/nokyan/resources): Great system monitor overall
 	- [Monitor](https://github.com/stsdc/monitor): System monitor with a great process view
@@ -123,18 +119,19 @@
 - `lxpolkit` (shipped with [`lxsession`](https://github.com/lxde/lxsession)): Simple PolicyKit authentication agent
 - [Eww](https://github.com/elkowar/eww) ("Elkowars Wacky Widgets"): Widget system to implement your own window manager agnostic widgets
 
-#### [`wlroots`](https://gitlab.freedesktop.org/wlroots/wlroots)-based Wayland compositor only
+#### Wayland compositor only
+> Which Wayland compositors are actually supported may vary, but at least they all work with [Hyprland](https://github.com/hyprwm/Hyprland)
 
 - [Hyprland](https://github.com/hyprwm/Hyprland): Highly customizable tiling compositor
 	- [Hyprsplit](https://github.com/shezdy/hyprsplit): Hyprland plugin for separate workspaces for each monitor ([Awesome](https://github.com/awesomeWM/awesome)-like)
 	- [grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast): Screenshot utility for Hyprland based on Sway's Grimshot
 	- [`hyprland-workspaces`](https://github.com/FieldofClay/hyprland-workspaces): Useful for building Hyprland workspace widgets e.g. with [Eww](https://github.com/elkowar/eww)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker): Simple color picker
+- [Hyprlock](https://github.com/hyprwm/hyprlock/): Modern-looking lockscreen
 - [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter): Customizable Notification daemon and control center
 - [SwayOSD](https://github.com/ErikReider/SwayOSD): On-screen display for changing volume, brightness, toggling capslock, ...
-- [swaylock-effects](https://github.com/jirutka/swaylock-effects): Modern-looking lockscreen
 - [swappy](https://github.com/jtheoof/swappy): Screenshot editing
-- [`swww`](https://github.com/Horus645/swww): Wallpaper setter with change animations and support for animated wallpapers
+- [`awww`](https://codeberg.org/LGFae/awww): Wallpaper setter with change animations and support for animated wallpapers
 - [`nwg-look`](https://github.com/nwg-piotr/nwg-look): Tool to set GTK themes, cursors, icons, ... (better on Wayland)
 	
 #### Xorg window manager only
@@ -155,6 +152,6 @@
 - [Obsidian](https://obsidian.md/): Markdown-based extensible note-taking app (also supports freehand drawing, pens, creating diagrams of all sorts, ...)
 	- Cross-Platform
 	- Source code can be inspected and seems to respect privacy (see [this](https://forum.obsidian.md/t/is-it-true-that-obsidian-is-already-open-source/46413))
-- [Qwant](https://about.qwant.com/en/): Privacy-respecting and unbiased search engine (using [Bing](https://www.bing.com/)s index)
-	- Mainly used as a [website](https://www.qwant.com/), but is also available through browser extensions and Android/iOS apps
-	- Privacy is not top-notch, but still better than most reasonable alternatives
+- [Brave Search](https://search.brave.com/): Privacy-respecting search engine (using own index!)
+	- Cool because it actually has its own index instead of forwarding to Google/Bing like a lot of other smaller search engines that claim they respect privacy, but that also means search results are not the best
+	- For better search results but less privacy the next best thing is [Qwant](https://about.qwant.com/en/), which is based in France and uses [Bing](https://www.bing.com/)s index
